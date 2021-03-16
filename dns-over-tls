@@ -1,5 +1,5 @@
 upstream dns-servers {
-    server    {dns_upstream}:53;
+    server    {dns_upstream};
 }
 server {
     listen 853 ssl;
